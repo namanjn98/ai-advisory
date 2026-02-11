@@ -16,3 +16,8 @@ dependencies = [
 
 [project.scripts]
 ai-advisory = "ai_advisory.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ai_advisory*"]
+exclude = ["Formula", "tests*"]
