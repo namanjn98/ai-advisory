@@ -30,7 +30,7 @@ Your AI Advisory project is now live on GitHub and ready for the world to use!
 
 ### Tools
 - ✅ **setup.py** - PyPI package configuration
-- ✅ **Homebrew Formula** - For `brew install` support
+- ✅ **Homebrew Tap** - Complete Homebrew tap repository
 - ✅ **GitHub Templates** - Issue templates, PR template
 
 ### Release
@@ -39,8 +39,9 @@ Your AI Advisory project is now live on GitHub and ready for the world to use!
 
 ## 🌐 Quick Links
 
-### Main Repository
-https://github.com/namanjn98/ai-advisory
+### Main Repositories
+- **Application:** https://github.com/namanjn98/ai-advisory
+- **Homebrew Tap:** https://github.com/namanjn98/homebrew-ai-advisory
 
 ### Documentation Pages
 - README: https://github.com/namanjn98/ai-advisory#readme
@@ -63,9 +64,10 @@ https://github.com/namanjn98/ai-advisory
 
 ## 🚀 Installation Instructions for Users
 
-### Quick Install (Homebrew - Coming Soon)
+### Quick Install (Homebrew) ⭐
 ```bash
-brew install namanjn98/ai-advisory/ai-advisory
+brew tap namanjn98/ai-advisory
+brew install ai-advisory
 ```
 
 ### Using pip
@@ -114,12 +116,14 @@ python -m build
 python -m twine upload dist/*
 ```
 
-### 4. Create Homebrew Tap
+### 4. Homebrew Tap (Done!) ✅
 
-For easier Homebrew installation:
+Homebrew tap is ready at: https://github.com/namanjn98/homebrew-ai-advisory
+
+Users can now install with:
 ```bash
-gh repo create homebrew-ai-advisory --public
-# Copy Formula and publish
+brew tap namanjn98/ai-advisory
+brew install ai-advisory
 ```
 
 ### 5. Write a Blog Post

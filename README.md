@@ -37,29 +37,32 @@ Perfect for:
 
 ### Installation
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/ai-advisory.git
-   cd ai-advisory
-   ```
+**Option 1: Homebrew (Easiest for macOS/Linux)**
+```bash
+brew tap namanjn98/ai-advisory
+brew install ai-advisory
+```
 
-2. **Create a virtual environment:**
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
+**Option 2: pip (macOS/Linux/Windows)**
+```bash
+pip install ai-advisory
+```
 
-3. **Install the package:**
-   ```bash
-   pip install -e .
-   ```
+**Option 3: From Source**
+```bash
+git clone https://github.com/namanjn98/ai-advisory.git
+cd ai-advisory
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -e .
+```
 
-4. **Set your OpenRouter API key:**
-   ```bash
-   export OPENROUTER_API_KEY=your_key_here
-   ```
+**Set Your API Key**
+```bash
+export OPENROUTER_API_KEY=your_key_here
+```
 
-   > 💡 Get your free API key at [openrouter.ai/keys](https://openrouter.ai/keys)
+> 💡 Get your free API key at [openrouter.ai/keys](https://openrouter.ai/keys)
 
 ### Your First Query
 

@@ -7,7 +7,7 @@ Get up and running with AI Advisory in 5 minutes.
 ### Option 1: Homebrew (macOS/Linux) - Recommended
 
 ```bash
-brew tap yourusername/ai-advisory
+brew tap namanjn98/ai-advisory
 brew install ai-advisory
 ```
 
@@ -20,7 +20,7 @@ pip install ai-advisory
 ### Option 3: From Source
 
 ```bash
-git clone https://github.com/yourusername/ai-advisory.git
+git clone https://github.com/namanjn98/ai-advisory.git
 cd ai-advisory
 pip install -e .
 ```

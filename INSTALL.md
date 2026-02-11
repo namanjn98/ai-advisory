@@ -7,6 +7,9 @@ Complete installation instructions for all platforms.
 ### macOS (Homebrew) - Recommended ⭐
 
 ```bash
+# Add the AI Advisory tap
+brew tap namanjn98/ai-advisory
+
 # Install using Homebrew
 brew install ai-advisory
 
@@ -22,6 +25,9 @@ ai-advisory ask "Hello world"
 ```bash
 # Install Homebrew first (if not installed)
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Add the AI Advisory tap
+brew tap namanjn98/ai-advisory
 
 # Install ai-advisory
 brew install ai-advisory
@@ -53,17 +59,22 @@ pip install -e .
 
 **Steps:**
 
-1. **Install the formula:**
+1. **Add the Homebrew tap:**
+   ```bash
+   brew tap namanjn98/ai-advisory
+   ```
+
+2. **Install the formula:**
    ```bash
    brew install ai-advisory
    ```
 
-2. **Verify installation:**
+3. **Verify installation:**
    ```bash
    ai-advisory --help
    ```
 
-3. **Set API key (permanent):**
+4. **Set API key (permanent):**
    ```bash
    echo 'export OPENROUTER_API_KEY=sk-or-v1-your-key' >> ~/.zshrc
    source ~/.zshrc
